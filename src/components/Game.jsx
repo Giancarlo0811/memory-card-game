@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import CardContainer from "./CardContainer";
+import logo from "../images/logo.png"
 
 function Game() {
     const [score, setScore] = useState(0);
@@ -33,9 +34,12 @@ function Game() {
 
     return (
         <div className="game-container">
-            <div className="scores">
-                <h1>Puntaje Actual: {score}</h1>
-                <h1>Puntaje más alto: {highScore}</h1>
+            <div className="score-container">
+                <div className="logo">
+                    <img src={logo}/>
+                </div>
+                <h1 className="score">Puntaje Actual: {score}</h1>
+                <h1 className="score">Puntaje Más Alto: {highScore}</h1>
             </div>
             <CardContainer updateCurrentCards={updateCurrentCards}/>
         </div>

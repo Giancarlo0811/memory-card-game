@@ -1,8 +1,8 @@
-# React + Vite
+# Juego de Memoria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Juego de Memoria usando React.
+El juego consiste en 10 cartas de personajes. El usuario debe cliquear todas las imágenes exactamente una vez.
+Cuando el usuario cliquea una imagen, las cartas son redistribuidas aleatoriamente. Si el usuario cliquea la misma imagen dos veces el puntaje se reinicia a 0.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](./img.png)
